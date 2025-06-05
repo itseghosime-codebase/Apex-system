@@ -1,16 +1,8 @@
 'use client'
 import React from 'react'
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
-import 'swiper/css';
-
-// import required modules
-
-import Profile from '@/assets/images/user.png'
+import Partner from '@/assets/images/partner.svg'
 import Image from 'next/image';
-import { Autoplay } from 'swiper/modules';
 
 export default function Testionial() {
     const [activeIndex, setActiveIndex] = React.useState(0);
@@ -19,11 +11,11 @@ export default function Testionial() {
     };
 
     return (
-        <div id='testimonial' className='py-20 bg-white'>
+        <div id='testimonial' className='py-24 bg-white'>
             <div className="container">
-                <h2 className='text-primary text-2xl font-medium'>People are talking about us</h2>
-                <div className='mt-5'>
-                    <Swiper
+                <h2 className='text-primary text-2xl md:text-4xl uppercase text-center font-medium'>Clients worked with</h2>
+                <div className='mt-5 max-w-4xl mx-auto bg-primary p-10 w-full rounded-lg flex flex-col items-center text-center'>
+                    {/* <Swiper
                         slidesPerView={1}
                         spaceBetween={30}
                         loop
@@ -78,7 +70,14 @@ export default function Testionial() {
                                 ></span>
                             </div>
                         ))}
-                    </div>
+                    </div> */}
+                    <Image
+                        src={Partner}
+                        alt="Partner"
+                        className='w-full h-20'
+                        sizes='100%'
+                    />
+                    <p className='text-sm md:text-base lg:text-lg text-white'>7 Million Amazon Coaching Business</p>
                 </div>
             </div>
         </div>

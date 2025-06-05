@@ -8,9 +8,9 @@ export default function Banner() {
     <div className='container pt-32 pb-20'>
       <div className="grid items-center justify-center md:grid-cols-12 gap-8">
         <div className="md:col-span-8 space-y-6">
-          <h1 className="text-4xl font-medium lg:text-6xl uppercase text-white">
-            Smart CRM, More Deals.
-          </h1>
+          <h1 className="text-3xl font-medium lg:text-4xl uppercase text-white">
+            Too Many No-Shows? Fix That <br className='hidden xl:block'/>
+            in 7 Days with a Smart CRM Setup.          </h1>
           <p className="text-base lg:text-lg text-white mt-4 text-pretty">
             We take care of your entire CRM setup—from custom workflows and automated reminders
             to full pipeline configuration—so your sales team can stop wasting time on admin and start

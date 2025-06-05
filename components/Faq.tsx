@@ -43,23 +43,21 @@ export default function Faq() {
 
 const FaQuestions = [
   {
-    heading: "What exactly do your DM setters do?",
+    heading: 'What exactly do you mean by "Smart CRM Setup"?',
     description:
-      "Our trained DM setters engage with your leads through direct messages (Instagram, Facebook, LinkedIn, etc.), spark real conversations, qualify prospects, and book them directly into your calendar for sales calls. They handle all the back-and-forth so you can focus on closing.",
+      "A Smart CRM Setup refers to a fully customized customer relationship management system that includes tailored workflows, automated follow-ups, and real-time pipeline tracking—designed to reduce no-shows and increase conversions.",
   },
   {
-    heading: "Who trains your setters?",
-    description:
-      "All our setters go through a proven training program led by experts in high-ticket sales and conversational marketing. They're taught to understand buyer psychology, objection handling, tonality, and how to represent your offer with clarity and confidence.",
+    heading: " How does this setup help reduce no-shows?",
+    description: "We implement automated reminders via email, SMS, or calls, and design workflows that keep leads engaged and accountable—so appointments are more likely to happen."
   },
   {
-    heading: "Will the setters sound like me or my brand?",
+    heading: "Is this setup tailored to my specific business or industry?",
     description:
-      "Yes. Before we begin, we work closely with you to understand your brand voice, target audience, and offer. We then create custom scripts and messaging frameworks to ensure every message feels authentic and aligned with your tone.",
+      "Yes! We customize every CRM setup based on your sales process, team size, industry, and pain points.",
   },
   {
-    heading: "What platforms do you operate on?",
-    description:
-      "We currently support DM outreach on Instagram, Facebook, and LinkedIn. If you're active on multiple platforms, we’ll help you prioritize based on where your ideal clients are most engaged.",
+    heading: "Do you offer ongoing support after the initial setup?",
+    description: "Yes. We offer optional monthly support plans to help you optimize, troubleshoot, and train your team as you grow.",
   },
 ];

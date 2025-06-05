@@ -22,7 +22,7 @@ export default function Bookings() {
             </section>
             <section className="lg:col-span-3 space-y-3 text-white">
                 <BlurFade inView delay={0.25}>
-                    <h2 className="text-2xl md:text-3xl font-medium uppercase">
+                    <h2 className="text-2xl md:text-3xl text-[#A2E4FF] font-medium uppercase">
                         Let’s Build a CRM That Works for You
                     </h2>
                 </BlurFade>
