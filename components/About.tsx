@@ -13,7 +13,7 @@ export default function About() {
                         you're leaving revenue on the table. Apex CRM Systems streamlines your sales process
                         with full-service automation.
                     </p>
-                    <Link href={''} className="block w-full md:w-fit text-center md:inline-flex items-center justify-center px-10 py-4 font-medium text-white bg-secondary rounded-sm hover:bg-secondary/80 transition-colors">
+                    <Link href={'#bookings'} className="block w-full md:w-fit text-center md:inline-flex items-center justify-center px-10 py-4 font-medium text-white bg-secondary rounded-sm hover:bg-secondary/80 transition-colors">
                         <span className='text-base'>Book free call</span>
                     </Link>
                 </div>

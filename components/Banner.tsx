@@ -20,10 +20,10 @@ export default function Banner() {
             focusing on what really matters: showing up and closing deals.
           </p>
           <div className='flex flex-col md:flex-row items-center justify-start gap-2'>
-            <Link href={''} className="block w-full md:w-fit text-center md:inline-flex items-center justify-center px-10 py-4 font-medium text-white bg-secondary rounded-sm hover:bg-secondary/80 transition-colors">
+            <Link href={'#bookings'} className="block w-full md:w-fit text-center md:inline-flex items-center justify-center px-10 py-4 font-medium text-white bg-secondary rounded-sm hover:bg-secondary/80 transition-colors">
               <span className='text-base'>Book free call</span>
             </Link>
-            <Link href={''} className="block w-full md:w-fit text-center md:inline-flex items-center justify-center px-10 py-3.5 font-medium text-[#B3E9FF] bg-secondary/35 rounded-sm hover:bg-secondary/80 hover:text-white border border-secondary transition-colors">
+            <Link href={'#works'} className="block w-full md:w-fit text-center md:inline-flex items-center justify-center px-10 py-3.5 font-medium text-[#B3E9FF] bg-secondary/35 rounded-sm hover:bg-secondary/80 hover:text-white border border-secondary transition-colors">
               <span className='text-base'>Learn more</span>
             </Link>
           </div>
