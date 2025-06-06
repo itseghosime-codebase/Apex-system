@@ -10,7 +10,7 @@ export default function Bookings() {
             <section className='lg:col-span-2'>
                 <div className="rounded-lg h-fit overflow-hidden max-w-md mx-auto ">
                     <InlineWidget
-                        url="https://calendly.com/mosa_kambule/30min"
+                        url="https://calendly.com/apexcrmsystems/zoom-meeting"
                         pageSettings={{
                             backgroundColor: "#111C39",
                             textColor: "#ffffff",
@@ -45,3 +45,7 @@ export default function Bookings() {
         </div>
     );
 }
+
+
+
+// ?hide_event_type_details=1&background_color=111C39&text_color=ffffff&primary_color=52A3C5

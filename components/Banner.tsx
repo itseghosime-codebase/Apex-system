@@ -7,9 +7,12 @@ export default function Banner() {
   return (
     <div className='container pt-32 pb-20'>
       <div className="grid items-center justify-center md:grid-cols-12 gap-8">
-        <div className="md:col-span-8 space-y-6">
+        <div className="md:col-span-8 space-y-4">
+          <p className='text-[#89DCFF] text-sm italic font-light'>
+            We will double your show up rate which will double your monthly revenue in 60 days
+          </p>
           <h1 className="text-3xl font-medium lg:text-4xl uppercase text-white">
-            Too Many No-Shows? Fix That <br className='hidden xl:block'/>
+            Too Many No-Shows? Fix That <br className='hidden xl:block' />
             in 7 Days with a Smart CRM Setup.          </h1>
           <p className="text-base lg:text-lg text-white mt-4 text-pretty">
             We take care of your entire CRM setup—from custom workflows and automated reminders
